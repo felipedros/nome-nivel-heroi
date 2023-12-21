@@ -1,22 +1,23 @@
 let nomeDoHeroi = "Fernanda";
 let nivel = 11000;
+let mensagemNivel = "";
 
 if (nivel <= 1000) {
-    console.log("Nivel ferro");
+    mensagemNivel = "Nivel ferro";
 } else if (nivel >= 1001 && nivel <= 2000) {
-    console.log("Nivel bronze");
+    mensagemNivel = "Nivel bronze";
 } else if (nivel >= 2001 && nivel <= 5000) {
-    console.log("Nivel prata");
+    mensagemNivel = "Nivel prata";
 } else if (nivel >= 5001 && nivel <= 7000) {
-    console.log("Nivel ouro");
+    mensagemNivel = "Nivel ouro";
 } else if (nivel >= 7001 && nivel <= 8000) {
-    console.log("Nivel platina");
+    mensagemNivel = "Nivel platina";
 } else if (nivel >= 8001 && nivel <= 9000) {
-    console.log("Nivel Ascendente");
+    mensagemNivel = "Nivel Ascendente";
 } else if (nivel >= 9001 && nivel <= 10000) {
-    console.log("Nivel imortal");
+    mensagemNivel = "Nivel imortal";
 } else if (nivel >= 10001) {
-    console.log("Nivel Radiante");
+    mensagemNivel = "Nivel Radiante";
 }
 
-console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivel);
+console.log("O Herói de nome " + nomeDoHeroi + " está no " + mensagemNivel);
