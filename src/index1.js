@@ -21,3 +21,11 @@ if (nivel <= 1000) {
 }
 
 console.log("O Herói de nome " + nomeDoHeroi + " está no " + mensagemNivel);
+
+
+/*Utilizei três variáveis para armazenar:
+ . O nome
+ . O nível
+. Mensagem atribuída a cada nível da heroína.
+
+ Os operadores lógicos  foram utilizados dentro das  estruturas de controle if e else if.*/
